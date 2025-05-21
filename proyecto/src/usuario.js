@@ -2,7 +2,6 @@ import { supabase } from './supabase.js';
 import { mostrarAdministrador } from "./administrador.js";
 
 
-
 export async function mostrarDatos() {
   const app = document.getElementById('app');
   app.innerHTML = '<p>Cargando...</p>';
